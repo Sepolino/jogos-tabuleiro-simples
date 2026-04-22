@@ -99,7 +99,7 @@ python -m tests.test_manual
 jogos-de-tabuleiro/
 ├── README.md
 ├── docs/
-│   ├── ARQUITETURA.md        # Design OO da arquitetura
+│   ├── ARQUITETURA.md        # Design POO da arquitetura
 │   ├── IMPLEMENTACAO.md      # Detalhes de implementação
 │   └── MENU_E_ENTRADA.md     # Sistema de menu e validação
 ├── src/
