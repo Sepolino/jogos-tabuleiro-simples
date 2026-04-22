@@ -1,4 +1,4 @@
-# Jogos de Tabuleiro - Arquitetura OO
+# Jogos de Tabuleiro - Damas - Programação Orientada em Objetos (POO)
 
 ## Integrantes
 
@@ -6,11 +6,11 @@
 
 ## Descrição Geral
 
-Arquitetura extensível de jogos de tabuleiro em Python, seguindo princípios sólidos de Orientação a Objetos. A solução foi pensada para permitir implementação de diferentes jogos reutilizando a base comum.
+Projeto de Jogos de Tabuleiro simples criado para desenvolver e aprimorar habilidades no conteúdo de Programação Orientada em Objetos, fazendo o uso de classes e objetos para permitir o reuso e novas atualizações futuras do código.
 
 ## Arquitetura
 
-A solução é dividida em dois níveis:
+A sua estrutura é dividida em dois níveis:
 
 ### Core (`src/core/`)
 Classes genéricas e reutilizáveis que definem a estrutura de qualquer jogo de tabuleiro:
