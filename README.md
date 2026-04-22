@@ -183,19 +183,19 @@ O sistema implementa validação robusta em múltiplas camadas:
 ## Como Adicionar um Novo Jogo
 
 **1. Criar a implementação do jogo:**
-- Criar `src/jogos/seu_jogo.py`
-- Criar `TauleiroSeuJogo` estendendo `Tabuleiro`
-- Criar `SeuJogo` estendendo `JogoTabuleiro`
+- Criar `src/jogos/teste_jogo.py`
+- Criar `TauleirotesteJogo` estendendo `Tabuleiro`
+- Criar `testeJogo` estendendo `JogoTabuleiro`
 - Implementar métodos abstratos obrigatórios
 
 **2. Atualizar o menu:**
 - Editar `src/main.py`
 - Adicionar opção no `menu_principal()`
-- Adicionar função `executar_seu_jogo()`
+- Adicionar função `executar_teste_jogo()`
 - Adicionar case no `main()`
 
 **3. Adicionar testes:**
-- Criar `tests/test_seu_jogo.py`
+- Criar `tests/test_teste_jogo.py`
 - Cobrir regras importantes
 
 **Reuso de Classes:**
@@ -203,10 +203,10 @@ As classes `Jogador`, `Peca`, `Jogada` são reutilizadas sem modificação.
 
 **Exemplo:**
 ```python
-# src/jogos/seu_jogo.py
+# src/jogos/teste_jogo.py
 from src.core import JogoTabuleiro, Tabuleiro
 
-class TauleiroSeuJogo(Tabuleiro):
+class TauleirotesteJogo(Tabuleiro):
     def __init__(self):
         super().__init__(8)  # ou outro tamanho
     
@@ -216,7 +216,7 @@ class TauleiroSeuJogo(Tabuleiro):
     def exibir(self):
         pass
 
-class SeuJogo(JogoTabuleiro):
+class testeJogo(JogoTabuleiro):
     def validar_jogada(self, jogada):
         pass
     
