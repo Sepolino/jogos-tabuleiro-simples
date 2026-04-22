@@ -45,7 +45,7 @@ def obter_nomes_jogadores():
     return nome1, nome2
 
 def obter_entrada_jogada(jogador_atual):
-    """Obtém uma jogada do usuário com validação."""
+    """Obtém uma jogada do usuário com sua validação."""
     while True:
         entrada = input(f"\n{jogador_atual.nome} - Digite a jogada (l1 c1 l2 c2) ou 'sair': ").strip()
         
